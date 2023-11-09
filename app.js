@@ -1,3 +1,7 @@
-import {renderApp} from "./function.js"
+import { firstSection , footer, renderNav} from "./function.js"
 
-renderApp();
+firstSection()
+
+renderNav();
+
+footer();
