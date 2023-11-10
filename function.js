@@ -21,9 +21,25 @@ const renderContent = () => {
 
     explanation.setAttribute("class", "main-explanation");
 
+    const informationText = document.createElement("span");
+
+    informationText.textContent = "IFruit Vision Pro, This is Great Product For Your Needs.";
+
+    informationText.setAttribute("class", "infotext");
+
+    const price = document.createElement("div");
+
+    price.textContent = "$9999";
+
+    price.setAttribute("class", "price-tag");
+
     firsSectionDiv.appendChild(firstImg)
 
     firsSectionDiv.appendChild(explanation);
+
+    firsSectionDiv.appendChild(informationText);
+
+    firsSectionDiv.appendChild(price)
 
     mainDiv.appendChild(firsSectionDiv);
     }
@@ -47,11 +63,27 @@ const renderContent = () => {
         
             secondImg.setAttribute("class", "Images");
         
-            secondImg.setAttribute("alt", "Samsung Galaxy S20+");
+            secondImg.setAttribute("alt", "Samsung Galaxy 39");
+
+            const informationText = document.createElement("span");
+
+            informationText.textContent = "Description of Product 2. Get the Best Value With This Product."
+
+            informationText.setAttribute("class", "infotext");
+
+            const price = document.createElement("div");
+
+    price.textContent = "$123";
+
+    price.setAttribute("class", "price-tag");
         
             secondSectionDiv.appendChild(secondImg);
 
             secondSectionDiv.appendChild(explanation);
+
+            secondSectionDiv.appendChild(informationText);
+
+            secondSectionDiv.appendChild(price);
         
             mainDiv.appendChild(secondSectionDiv); 
     }
@@ -76,9 +108,25 @@ const renderContent = () => {
 
     thirdImg.setAttribute("class", "Images");
 
+    const informationText = document.createElement("span");
+
+        informationText.textContent = "The Perfect Solution For Your requirements.";
+
+        informationText.setAttribute("class", "infotext");
+
+        const price = document.createElement("div");
+
+    price.textContent = "$230";
+
+    price.setAttribute("class", "price-tag");
+
     thirdSectionDiv.appendChild(thirdImg);
 
     thirdSectionDiv.appendChild(explanation);
+
+    thirdSectionDiv.appendChild(informationText);
+
+    thirdSectionDiv.appendChild(price)
 
     mainDiv.appendChild(thirdSectionDiv);
     }
