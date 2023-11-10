@@ -1,7 +1,7 @@
-import { firstSection , footer, renderNav} from "./function.js"
+import { renderContent, renderFooter, renderNav} from "./function.js"
 
-firstSection()
+renderContent()
 
 renderNav();
 
-footer();
+renderFooter();
